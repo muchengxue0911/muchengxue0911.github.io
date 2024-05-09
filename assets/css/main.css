@@ -2588,7 +2588,7 @@ input, select, textarea {
 
 	#logo {
 		position: absolute;
-		left: 82%;
+		right: 1%;
 		top: 3%;
 	}
 
@@ -2895,6 +2895,12 @@ input, select, textarea {
 				line-height: 1.5em;
 			}
 
+			#logo {
+				position: absolute;
+				right: 1%;
+				top: 2%;
+			}
+
 		/* Banner */
 
 			#banner {
@@ -2912,6 +2918,12 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 13pt;
 				line-height: 1.5em;
+			}
+
+			#logo {
+				position: absolute;
+				right: 1%;
+				top: 1%;
 			}
 
 		/* Lists */
@@ -2988,6 +3000,12 @@ input, select, textarea {
 				line-height: 1.5em;
 			}
 
+			#logo {
+				position: absolute;
+				right: 1%;
+				top: 1%;
+			}
+
 	}
 
 /* Narrower */
@@ -3006,6 +3024,12 @@ input, select, textarea {
 
 			body, input, select, textarea {
 				font-size: 13pt;
+			}
+
+			#logo {
+				position: absolute;
+				right: 1%;
+				top: 1%;
 			}
 
 			h1, h2, h3, h4, h5, h6 {
