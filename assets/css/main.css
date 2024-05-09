@@ -190,6 +190,24 @@ input, select, textarea {
 		display: inline-block;
 	}
 
+	.container .span {
+		display: flex;
+		align-items: baseline;
+	}
+	
+	.container .star::after {
+		content: '*';
+	}
+
+	.container .news {
+		padding: 0 20%;
+	}
+
+	.container .news ul {
+		list-style-type: "\1F44D";
+		text-align: start;
+	}
+
 	.paper-list h3{
 		font-size: x-large;
 		color: #999999;
@@ -2568,12 +2586,25 @@ input, select, textarea {
 				margin-bottom: 0;
 			}
 
-/* Header */
+	#logo {
+		position: absolute;
+		left: 82%;
+		top: 3%;
+	}
+
+			/* Header */
 
 	#header {
+		display: flex;
 		text-align: justify;
-		justify-content: center;
+		justify-content: space-between;
+		align-items: center;
 		/* padding: 3em 0 0 0; */
+		background-color: #333;
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
+		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 	}
 
 		#header h1 {
@@ -2590,11 +2621,6 @@ input, select, textarea {
 	#nav {
 		cursor: default;
 		flex:1;
-		background-color: #333;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
-		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3)), url("images/bg01.png");
 		padding: 0;
 	}
 
@@ -2908,6 +2934,7 @@ input, select, textarea {
 
 			#header {
 				padding: 0;
+				display: flex;
 			}
 
 				#header h1 {
