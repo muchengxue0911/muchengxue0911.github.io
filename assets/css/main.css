@@ -206,7 +206,11 @@ input, select, textarea {
 	}
 
 	.container .news {
-		padding: 0 20%;
+		padding: 0 5%;
+	}
+
+	.container .news ul li {
+		padding-bottom: 0.5em;
 	}
 
 	.container .news ul {
