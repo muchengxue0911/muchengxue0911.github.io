@@ -189,6 +189,11 @@ input, select, textarea {
 		letter-spacing: 0;
 		text-align: left;
 		display: inline-block;
+		margin-bottom: 0.4em;
+	}
+
+	.container p {
+		margin-bottom: 2em;
 	}
 
 	.container .span {
