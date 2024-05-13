@@ -205,9 +205,9 @@ input, select, textarea {
 		content: '*';
 	}
 
-	.container .news {
+/* 	.container .news {
 		padding: 0 5%;
-	}
+	} */
 
 	.container .news ul li {
 		padding-bottom: 0.5em;
@@ -2036,6 +2036,9 @@ input, select, textarea {
 			margin: 0;
 			top: -1em;
 			letter-spacing: -0.025em;
+			color: #474747;
+			font-size: 1em;
+			text-align: justify;
 		}
 
 	footer {
